@@ -13,7 +13,6 @@
 						</ul>
 					</div><!-- #left sidebar .widget-area -->
 			
-			<?php endif; ?>	
-			&nbsp;	
+			<?php endif; ?>
 		</div>
 	    <!--end left sidebar-->

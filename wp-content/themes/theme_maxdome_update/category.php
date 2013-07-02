@@ -21,7 +21,7 @@
 				
 <!-- Display the date (November 16th, 2009 format) and a link to other posts by this posts author -->
 <div class="top-span">
-<span class="date"><?php the_time('d.m.Y') ?> von <strong><?php the_author_posts_link(); ?></strong></span>
+<span class="date"><?php the_time('d.m.Y') ?> von <span class="author"><?php the_author_posts_link(); ?></span></span>
 <span class="tags"><?php the_tags(); ?></span>
 </div>
 
@@ -42,7 +42,7 @@
 					   <?php the_excerpt(); ?>
 
 						<span class="read-more">
-							<a href="<?php the_permalink() ?>">&gt; Weiterlesen</a>
+							<a href="<?php the_permalink() ?>">Weiter lesen</a>
 						</span>
 					 </div>
 				

@@ -68,16 +68,33 @@
 
 
 
+
+<!-- start Header -->
+<div id="header">
+    <div id="header-inner">
+        <div id="header-nav--meta">
+            <ul>
+                <li>
+                    <a href="http://www.maxdome.de/" class="arrow-right">maxdome</a>
+                </li>
+            </ul>
+        </div>
+        <div id="logo">
+            <a href="<?php echo home_url( '/' ); ?>" title="logo" rel="home"><span>maxdome Blog</span></a>
+        </div>
+        <div id="web-presence-part">Blog</div>
+
+        <!-- start search form -->
+        <?php include(TEMPLATEPATH . '/searchform.php'); ?>
+        <!-- end search form -->
+    </div>
+</div>
+<!-- end Header -->
+
 <!-- start wrapper -->
 <div id="wrapper">
-	
-	<!-- start Header -->
-	<div id="header">
-		<a href="<?php echo home_url( '/' ); ?>" id="logo"><img src="<?php bloginfo('template_url'); ?>/images/logo.png" alt="maxdome" /></a>	  		 
-   </div>
-   <!-- end Header -->
    
-   <!-- start mainNav -->
+   <!-- start mainNav
    <div id="mainNav">
 		<ul>
 			<li class="home"><a href="http://www.maxdome.de">Home</a></li>
@@ -92,7 +109,7 @@
 			<li class="<?php if ( is_page('service')) { echo 'selected '; } ?>btn_service"><a href="http://www.maxdome.de/service">Service</a></li>
 		</ul> 
 	</div>
-	<!-- end mainNav -->
+	end mainNav -->
 
 	<!--start breadcrumbs-->	
 	<div id="breadcrumbs">
@@ -104,10 +121,6 @@
 		?>
 	</div>	
 	<!--end breadcrumbs-->
-
-	<!-- start search form -->
-	<?php include(TEMPLATEPATH . '/searchform.php'); ?>	
-	<!-- end search form -->
 		
 	<div class="clear"></div>
 
