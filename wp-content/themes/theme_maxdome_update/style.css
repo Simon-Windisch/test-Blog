@@ -184,6 +184,8 @@ body {
     right: 0px;
     top: -1px;
     font-size: 15px;
+    line-height: 1.3;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 #header-nav--meta > ul {
     background: url(images/header-s1f45a88d2f.png) no-repeat transparent;
@@ -266,6 +268,7 @@ body {
 
 /* Suche */
 #header #sucheForm{
+    box-sizing: border-box;
     background-color: rgba(255, 255, 255, 0.102);
     border-bottom: 1px solid #6A737A;
     border-left: 1px solid #282B2E;
@@ -278,9 +281,10 @@ body {
     height: 32px;
     position: absolute;
     right: 0px;
-    bottom: 9px;
+    bottom: 10px;
 }
 #header #sucheForm #s{
+    box-sizing: border-box;
     background: transparent;
     display: block;
     float: left;
@@ -289,12 +293,14 @@ body {
     -webkit-box-shadow: rgba(16, 16, 16, 0.298) 0px 0px 3px;
     -moz-box-shadow: rgba(16, 16, 16, 0.298) 0px 0px 3px;
     outline: none;
+    margin: 0;
     height: 30px;
-    width: 174px;
+    width: 194px;
     padding: 1px 0px 0px 10px;
     font-size: 15px;
     line-height: 29px;
     color: #FFFFFF;
+    font-family: "Segoe UI", "Arial", sans-serif;
 }
 #header #sucheForm #searchsubmit{
     background: url("images/header-s1f45a88d2f.png") no-repeat transparent;
@@ -304,6 +310,7 @@ body {
     border: none;
     position: relative;
     cursor: pointer;
+    margin: 0;
     height: 30px;
     width: 30px;
     text-align: left;
