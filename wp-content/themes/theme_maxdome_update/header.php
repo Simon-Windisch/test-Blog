@@ -67,6 +67,8 @@
 <script type="text/javascript">_ga.trackFacebook();</script>
 
 
+<!-- start Page Content -->
+<div id="mxd-pattern-background-wrapper">
 
 
 <!-- start Header -->

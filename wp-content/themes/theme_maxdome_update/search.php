@@ -78,7 +78,8 @@
 							
 </div><!-- end wrapper -->
 
-<?php get_footer(); ?>	
+<?php get_footer(); ?>
+</div><!-- end Page Content -->
 
 </body>
 </html>
