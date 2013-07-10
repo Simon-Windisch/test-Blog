@@ -32,7 +32,7 @@
                     <!--facebook plugin -->
                     <li class="facebook-plugin">
                         <h3 class="boxTitle">Auf dem Laufenden bleiben</h3>
-                        <div class="fb-like-box" data-href="http://www.facebook.com/maxdome" data-width="195" data-show-faces="true" data-stream="true" data-header="false"  data-show-border="false"></div>
+                        <div class="fb-like-box" data-href="http://www.facebook.com/maxdome" data-width="195" data-show-faces="true" data-stream="false" data-header="false"  data-show-border="false"></div>
                     </li>
                 </ul>
             </div>

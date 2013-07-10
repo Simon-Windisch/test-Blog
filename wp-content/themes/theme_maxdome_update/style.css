@@ -169,7 +169,7 @@ body {
 --------------------------------------------------------------------------------------------------------*/
 
 #header{
-    background: url(images/header-s1f45a88d2f.png) no-repeat transparent;
+    background: url(images/header-s1f45a88d2f.png) no-repeat transparent top center;
     height: 200px;
     overflow: visible;
 }
