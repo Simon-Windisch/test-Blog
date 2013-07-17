@@ -21,13 +21,13 @@
 					 </h2>
 
 <div class="top-span">
-<span class="date"><?php the_time('d.m.Y') ?> von <strong><?php the_author_posts_link(); ?></strong></span>
-<div style="padding-top:2px;"><span class="tags"><?php the_tags(); ?></span></div>
+<span class="date"><?php the_time('d.m.Y') ?> von <span class="author"><?php the_author_posts_link(); ?></span></span>
+<span class="tags"><?php the_tags(); ?></span>
 </div>
 
                                          <!-- Display the Post's Content in a div box. -->
 					 <div class="entry">
-					   <span style="float:left;padding-right:16px;padding-bottom:3px;">
+					   <span class="image">
 
 <!-- Thumbnail auf großes Bild verlinken -->
 <?php 
@@ -101,7 +101,8 @@
 							
 </div><!-- end wrapper -->
 
-<?php get_footer(); ?>	
+<?php get_footer(); ?>
+</div><!-- end Page Content -->
 
 </body>
 </html>
