@@ -1,1 +1,5 @@
 .idea/*
+wp-content/uploads/*.bmp
+wp-content/uploads/*.jpeg
+wp-content/uploads/*.jpg
+wp-content/uploads/*.png
